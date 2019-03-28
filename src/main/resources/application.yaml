@@ -1,0 +1,28 @@
+server:
+  port: 8090
+
+
+spring:
+  profiles:
+    active: local
+  application:
+    name: cache
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bipo_lite_local?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: root
+    password: wkksky93
+
+  redis:
+    database: 1
+    host: localhost
+    port: 6379
+    password:
+
+
+
+
+
+
+
+
