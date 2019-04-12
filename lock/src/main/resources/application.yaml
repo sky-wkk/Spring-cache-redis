@@ -1,0 +1,15 @@
+server:
+  port: 8099
+
+
+spring:
+  application:
+    name: lock-server
+
+  redis:
+    database: 1
+    port: 6379
+    password:
+    host: localhost
+
+
